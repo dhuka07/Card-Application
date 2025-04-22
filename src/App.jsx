@@ -51,7 +51,7 @@ export default function RandomScoreCards() {
 
       <div className="mt-auto p-4">
       <footer className="text-center text-gray-700 p-4 mt-auto">
-        Design and Devloped by Saifali Dhuka
+        Design and Developed by Saifali Dhuka
         <hr/>
        <span className="cursor-pointer ml-2 hover:text-indigo-700" onClick={(e)=>{window.location.href = 'mailto:saifalidhuka@gmail.com'; e.preventDefault();}}> saifalidhuka@gmail.com</span> |<span className="cursor-pointer ml-2 hover:text-indigo-700" onClick={()=>{window.open('https://www.linkedin.com/in/saifalidhuka/', '_blank')}}>LinkedIn:https://www.linkedin.com/in/saifalidhuka/</span>
       </footer>
