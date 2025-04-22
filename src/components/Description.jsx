@@ -2,7 +2,7 @@ import React from 'react'
 
 const Description = () => {
   return (
-    <div className="m-16 items-center justify-center h-screen">
+    <div className="m-16">
        <h4 className="font-bold text-2xl text-indigo-700">Random Score Cards App</h4>
       <p className="mt-2  text-xl text-pretty  text-gray-700"> <span className="font-bold">Description: </span>The Random Score Cards App is an interactive web application that generates a random score (between 0–10)
          when the user clicks a button. The app displays a score in the center of the screen and we have 8 cards, each showing a random number between 0 and 10. 

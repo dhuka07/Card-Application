@@ -21,7 +21,7 @@ export default function RandomScoreCards() {
     <div className="min-h-screen md:bg-gradient-to-br from-purple-200 to-blue-300 sm:bg-purple-200 p-6 flex flex-col pt-8 items-center">
         <button
           onClick={generateScore}
-          className="bg-linear-65 from-purple-500 to-pink-500 mb-6 transform hover:scale-105 text-white text-2xl cursor-pointer font-bold px-6 py-2 rounded-xl shadow-lg transition duration-130"
+          className="bg-linear-65 from-purple-500 to-pink-500 mb-6 transform hover:scale-105 text-white text-2xl cursor-pointer  px-6 py-2 rounded-xl shadow-lg transition duration-130"
         >
           Generate Score
         </button>
@@ -49,11 +49,13 @@ export default function RandomScoreCards() {
       
      <Description/>
 
-      <footer className="text-center text-gray-700">
+      <div className="mt-auto p-4">
+      <footer className="text-center text-gray-700 p-4 mt-auto">
         Design and Devloped by Saifali Dhuka
         <hr/>
        <span className="cursor-pointer ml-2 hover:text-indigo-700" onClick={(e)=>{window.location.href = 'mailto:saifalidhuka@gmail.com'; e.preventDefault();}}> saifalidhuka@gmail.com</span> |<span className="cursor-pointer ml-2 hover:text-indigo-700" onClick={()=>{window.open('https://www.linkedin.com/in/saifalidhuka/', '_blank')}}>LinkedIn:https://www.linkedin.com/in/saifalidhuka/</span>
       </footer>
+      </div>  
     </div>
   );
 }
