@@ -1,12 +1,23 @@
-# React + Vite
+# Card App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that generates random score and based on score, cards background are set.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup
+1. **Unzip the file.** If downloaded as zip file
+2. **Install dependencies:**
+   ```bash
+   npm install
+3. Run the app: 
+    ```bash 
+    npm run dev
+## Snips of App
+``` Desktop View
+![Screen Shot 2025-04-22 at 5 17 08 PM](https://github.com/user-attachments/assets/0e40b06a-56f0-4eb8-9b5f-0bd461b9e5af)
 
-## Expanding the ESLint configuration
+```Ipad View
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Screen Shot 2025-04-22 at 5 18 27 PM](https://github.com/user-attachments/assets/ed4dd1f4-924f-43ef-b58a-32dc89ec267b)
+
+Mobile View
+![Screen Shot 2025-04-22 at 5 18 05 PM](https://github.com/user-attachments/assets/f6d5233b-cb67-4975-afd5-350398ae2e04)
