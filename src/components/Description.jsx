@@ -11,7 +11,7 @@ const Description = () => {
       </p>
       <h4 className="font-bold text-2xl text-indigo-700 mt-4">How to Use:</h4>
       <ul className="mt-2 p-2 text-xl text-pretty list-decimal text-gray-700">
-        <li className="ml-4">Upon loading the app, the user will see a Generate button located at the top left of the screen.</li>
+        <li className="ml-4">Upon loading the app, the user will see a Generate button located at the top center of the screen.</li>
         <li className="ml-4">Clicking the Generate button will trigger the app to randomly generate a number between 0 and 10 and display it in a large font at the center of the screen.</li>
         <li className="ml-4">Below the score, 8 cards will be displayed, each showing a random number between 0 and 10. The color of each card will adjust based on its value (red for low, yellow for medium, green for high).</li>
         <li className="ml-4">The user can click the Generate button again to refresh the score and the cards, creating a new, dynamic set of numbers.</li>
